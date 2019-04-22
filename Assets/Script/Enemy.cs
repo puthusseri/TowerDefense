@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour
 	   
 	   if(wavepointIndex >=WayPoints.points.Length - 1 ) {
 		   Destroy(gameObject);
+		   return;
 	   }
 	   wavepointIndex++;
 	   target = WayPoints.points[wavepointIndex];
