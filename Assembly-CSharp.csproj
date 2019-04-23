@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Enemy.cs" />
+     <Compile Include="Assets\Script\WaveSpawner.cs" />
      <Compile Include="Assets\Script\WayPoints.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/TowerDefense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
